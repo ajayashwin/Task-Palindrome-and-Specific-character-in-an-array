@@ -1,0 +1,25 @@
+
+public class arrayexamples {
+
+	public static void main(String[] args) {
+		
+		
+		String[] words = {"abc","bcd","aba","cfg","madam"};
+		
+		for(String i:words) {
+			String rev_i = ""; 
+			for(int s=i.length()-1;s>=0;s--) {
+				rev_i = rev_i+i.substring(s,s+1);
+			}
+			if(rev_i.equals(i)) {
+				System.out.println(i);
+				break;
+			}
+			
+		}
+		
+		
+
+	}
+
+}
