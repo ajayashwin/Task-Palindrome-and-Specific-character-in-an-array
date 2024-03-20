@@ -1,0 +1,30 @@
+import java.util.*;
+public class arrayExample2 {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String[] words ={"abc","bcd","aaaa","cbc"};
+		
+		char x = 'a';
+		int index_word_arr = 0;
+		
+		int[] index_arr = new int[words.length]; 
+		
+		int index = 0;
+		for(String i:words) {
+			if(i.charAt(0)== x) {
+				index_arr[index] =  index_word_arr;
+				index++;
+			}
+			index_word_arr++;
+			
+		}
+		System.out.println(Arrays.toString(index_arr));
+		
+
+
+	}
+
+}
